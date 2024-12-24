@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERRY CHRISTMAS</title>
+    <link rel="icon" href="./noel.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+    <audio id="audio" src="./giangsinh.mp3"></audio>
+
+    <div id="as" class="christmas-message">Merry Christmas</div>
+    <div class="tree-container">
+        <img src="https://github.com/Panbap/datapanbap/blob/main/image/big_tree.png?raw=true" alt="Cây thông" class="tree-icon">
+    </div>
+
+    <div class="container">
+        <button id="showButton">
+            Ấn vô đây nhé hihi
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        <div id="ax" class="card">
+            <div class="imgBox">
+                <div class="bark">
+                    <img src="./z6162997983371_8365091c77c52bef6e3c1e9f43a5f173.jpg" alt="">
+                </div>
+                <img
+                    src="https://github.com/Panbap/datapanbap/blob/main/image/mery.png?raw=true">
+            </div>
+            <div class="details">
+                <h4 class="color margin">MERRY CHRISTMAS</h4>
+                <p>Giáng Sinh đến rồi.</p>
+                <p>Chúc người em thương mùa giáng sinh</p>
+                <p>an lành, hạnh phúc và vui vẻ. Dù chị đi đâu, </p>
+                <p>em vẫn luôn dõi theo, hướng về chị,</p>
+                <p>đồng hành cùng chị suốt chặng đường dài </p>
+                <p>để có thể dìu chị khi chị vấp ngã,</p>
+                <p>bên chị mỗi khi chị cô đơn và </p>
+                <p>hạnh phúc cùng chị khi thấy chị cười</p>
+                <p class="text-right">Chúc mừng Giáng Sinh!</p>
+                <p class="text-right">♥Hùng♥</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+       document.body.addEventListener("click", function() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
